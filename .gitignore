@@ -1,0 +1,31 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated artifacts (large binary files)
+embeddings/embeddings.npz
+embeddings/vectorizer.pkl
+embeddings/svd.pkl
+vector_store/metadata.json
+vector_store/category_index.json
+data/texts.json
+data/corpus.jsonl
+clustering/memberships.npy
+clustering/centroids.npy
+clustering/hard_labels.npy
+clustering/doc_clusters.json
+cache/cache_state.json
+
+# Dataset (download separately)
+20_newsgroups/
+*.tar.gz
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
