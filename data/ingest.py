@@ -96,7 +96,7 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-CORPUS_ROOT = Path("20_newsgroups")                  # dataset folder, relative to CWD
+CORPUS_ROOT = Path(__file__).parent.parent / "20_newsgroups"                  # dataset folder, relative to CWD
 OUT_DIR     = Path(__file__).parent.parent           # project root
 DATA_DIR    = OUT_DIR / "data"
 EMB_DIR     = OUT_DIR / "embeddings"
